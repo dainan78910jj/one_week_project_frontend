@@ -27,7 +27,7 @@ function ProjectList() {
     ]
 
     return (
-        <div className="ProjectList">
+        <div className="ProjectList mt-5">
 
             <Container>
                 <Row>
