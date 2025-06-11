@@ -31,7 +31,7 @@ function ProjectList() {
 
             <Container>
                 <Row>
-                    {projects.map((p) => <Col> <Project key={p.id} projectInfo={p} className="m-auto" /></Col>)}
+                    {projects.map((p) => <Col key={p.id}> <Project projectInfo={p} /></Col>)}
                 </Row>
             </Container>
 

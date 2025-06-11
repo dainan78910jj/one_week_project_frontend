@@ -32,7 +32,23 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.Header h1 {
+  font-family: monospace;
+}
+
+.AboutMe h2 {
+  font-family: cursive;
+}
+
+.Footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
